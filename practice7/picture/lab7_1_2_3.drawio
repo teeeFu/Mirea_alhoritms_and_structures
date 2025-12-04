@@ -1,0 +1,28 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 YaBrowser/25.8.0.0 Safari/537.36" version="28.2.5">
+  <diagram name="Movable UML" id="movable-uml">
+    <mxGraphModel dx="1042" dy="644" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" value="&amp;lt;interface&amp;gt;&lt;br&gt;Movable&lt;br&gt;--------------------------------------&lt;br&gt;+ moveUp(): void&lt;br&gt;+ moveDown(): void&lt;br&gt;+ moveLeft(): void&lt;br&gt;+ moveRight(): void" style="shape=rectangle;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="60" y="60" width="180" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="3" value="MovablePoint&lt;br&gt;--------------------------------------&lt;br&gt;- x: int&lt;br&gt;- y: int&lt;br&gt;- xSpeed: int&lt;br&gt;- ySpeed: int&lt;br&gt;--------------------------------------&lt;br&gt;+ moveUp(): void&lt;br&gt;+ moveDown(): void&lt;br&gt;+ moveLeft(): void&lt;br&gt;+ moveRight(): void&lt;br&gt;+ toString(): String" style="shape=rectangle;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="320" y="20" width="220" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="4" value="MovableRectangle&lt;br&gt;---------------------------------------------------------&lt;br&gt;- topLeft: MovablePoint&lt;br&gt;- bottomRight: MovablePoint&lt;br&gt;---------------------------------------------------------&lt;br&gt;+ moveUp(): void&lt;br&gt;+ moveDown(): void&lt;br&gt;+ moveLeft(): void&lt;br&gt;+ moveRight(): void&lt;br&gt;+ SpeedTest(): boolean&lt;br&gt;+ toString(): String" style="shape=rectangle;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="110" y="340" width="260" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="5" style="endArrow=block;endFill=0;" parent="1" source="3" target="2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6" style="endArrow=block;endFill=0;" parent="1" source="4" target="2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7" style="endArrow=diamondThin;endFill=1;" parent="1" source="4" target="3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
