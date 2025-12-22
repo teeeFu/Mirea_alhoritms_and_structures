@@ -1,5 +1,6 @@
 package practice5;
 
+// музыка
 import javax.swing.*;
 import java.util.ArrayList;
 
@@ -20,11 +21,6 @@ public class practice5_4 {
 
 
 
-            //add("C:\\Users\\USER\\Desktop\\Практика №5 (Java)\\Разрезанное фото на части  progif.ru\\2.jpg");
-            //add("C:\\Users\\USER\\Desktop\\Практика №5 (Java)\\Разрезанное фото на части  progif.ru\\3.jpg");
-            //add("C:\\Users\\USER\\Desktop\\Практика №5 (Java)\\Разрезанное фото на части  progif.ru\\4.jpg");
-            //add("C:\\Users\\USER\\Desktop\\Практика №5 (Java)\\Разрезанное фото на части  progif.ru\\5.jpg");
-            //add("C:\\Users\\USER\\Desktop\\Практика №5 (Java)\\Разрезанное фото на части  progif.ru\\6.jpg");
         }};
 
         JFrame frame = new JFrame();

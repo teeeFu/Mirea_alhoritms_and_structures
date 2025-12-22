@@ -8,7 +8,7 @@ public class StringTask {
         System.out.println("1. Исходная строка " + str);
 
         char LastChar = str.charAt(str.length() - 1);
-        System.out.println("1. " + LastChar);
+        System.out.println("2. Последний символ: " + LastChar);
 
         boolean endstest = str.endsWith("!!!");
         System.out.println("3. Заканчивается на '!!!': " + endstest);
@@ -41,7 +41,7 @@ public class StringTask {
     }
 
     public static void main(String[] args) {
-        String testString = "I like Java!!!";
+        String testString = "I like Java!!?";
         StringTest(testString);
 
     }

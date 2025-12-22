@@ -159,9 +159,9 @@ public class SortingStudentsByGPA implements Comparator<Student> {
         sorted.outArray();
         System.out.println();
 
-        sorted.setArray(new Student("1", "1", "1", 1,1,1));
-        sorted.setArray(new Student("2", "2", "2", 2,2,2));
-        sorted.setArray(new Student("1", "1", "1", 1,1,3));
+        sorted.setArray(new Student("Vlad", "Petrov", "1", 1,1,1));
+        sorted.setArray(new Student("Roman", "Andreyev", "2", 2,2,2));
+        sorted.setArray(new Student("Masha", "Mirnaya", "1", 1,1,3));
 
         sorted.outArray();
         System.out.println();
@@ -171,9 +171,9 @@ public class SortingStudentsByGPA implements Comparator<Student> {
 
         SortingStudentsByGPA sorted2 = new SortingStudentsByGPA();
 
-        sorted2.setArray(new Student("7", "7", "8", 1,1,9));
-        sorted2.setArray(new Student("5", "2", "7", 2,2,3));
-        sorted2.setArray(new Student("3", "2", "1", 7,1,15));
+        sorted2.setArray(new Student("Alex", "Solodovchenko", "8", 1,1,9));
+        sorted2.setArray(new Student("Dmitry", "Kisilev", "7", 2,2,3));
+        sorted2.setArray(new Student("Anton", "Ivanov", "1", 7,1,15));
 
         sorted2.outArray();
         System.out.println();
